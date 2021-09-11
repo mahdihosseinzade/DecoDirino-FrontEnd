@@ -1,0 +1,83 @@
+@import "../../../assets/fonts/fonts";
+@import "../../../assets/colors/colors";
+
+
+.ArticlesPage{
+
+}
+
+.CardList{
+
+}
+
+.ArticleCard{
+  //display: flex;
+  //flex-flow: row;
+  direction: rtl;
+  margin-top: 20px;
+  width: 1000px;
+  background-color: unset!important;
+  border: solid 1px #707070;
+  border-radius: 20px;
+  text-align: right;
+  font-family: B-Nazanin,serif !important;
+
+  title{
+    font-size: 20px!important;
+  }
+
+}
+
+.ArticleImg{
+  width: 150px;
+  border:solid 1px #707070;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.ArticleBg{
+  //background-color: #F9BB06;
+  text-align: center;
+  padding: 30px 0px;
+  direction: rtl;
+
+  p{
+    border: dashed 0.5px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    font-family: IRANSansWeb,serif;
+    font-size: 24px;
+  }
+}
+
+.FilterBox{
+  width: 1300px;
+  height: 70px;
+  border: solid 1px;
+  border-radius: 10px;
+  font-family: IRANSansWeb,sans-serif;
+  font-size: 14px;
+}
+
+.TopArticles{
+  width: 300px;
+  height: 1700px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.FormGroup{
+
+}
+
+.btnSubmitF{
+  background-color:$Color-b;
+  border: unset;
+  width: 200px;
+  height: 40px;
+}
+
+.FormContorol{
+  font-size: 14px;
+}

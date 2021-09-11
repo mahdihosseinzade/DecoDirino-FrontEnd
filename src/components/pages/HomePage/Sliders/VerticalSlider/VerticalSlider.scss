@@ -1,0 +1,38 @@
+.VSlider{
+  width: 283px!important;
+  height: 600px!important;
+  padding: unset;
+  margin: unset;
+  border: unset;
+}
+
+.slick-list{
+  order: 1 !important;
+}
+
+.SliderDiv{
+}
+
+.NextArrowFontAwesome{
+  position: absolute !important;
+  right: 1% !important;
+  bottom: 44% !important;
+  background-color: unset;
+  border: unset;
+  outline: unset;
+}
+
+.PrevArrowFontAwesome{
+  position: absolute !important;
+  right: 99% !important;
+  bottom: 44% !important;
+  background-color: unset;
+  border: unset;
+  outline: unset;
+  z-index: 2;
+}
+
+.imgVSlider{
+  width: 283px!important;
+  height: 600px!important;
+}

@@ -1,0 +1,42 @@
+@import '../../../../assets/fonts/fonts';
+@import "../../../../assets/colors/colors";
+
+.DesignOrder{
+  margin: 70px 0;
+
+}
+
+.Dimg{
+  width: 800px;
+  height: 424px;
+}
+
+.BoxOrder{
+  width: 450px;
+  height: 400px;
+}
+
+.imgOrder{
+  width: 200px;
+  height: 200px;
+}
+
+.btnOrder{
+  background-color:$Color-d;
+  border:solid 1px $Color-d;
+  border-radius: 0 20px 20px 0;
+
+}
+
+.txtOrder{
+  font-family: IRANSansWeb,sans-serif;
+  margin-top: 5px;
+  text-align: right;
+  margin-bottom: 10px;
+
+}
+
+.HOrder{
+  font-family: IRANSansWeb,sans-serif;
+  color:$Color-d;
+}

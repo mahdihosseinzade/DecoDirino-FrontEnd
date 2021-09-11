@@ -1,0 +1,74 @@
+@import "../../../assets/colors/colors";
+@import "../../../assets/fonts/fonts";
+
+.ProfilePage{
+  font-family: IRANSansWeb,sans-serif;
+}
+
+.Box2{
+  margin: 30px 20px;
+}
+
+.BoxInfo{
+  width: 250px;
+  height: 500px;
+  border: solid 1px $Color-b;
+  border-radius: 20px;
+  padding: 20px;
+
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 15px;
+  }
+
+  text{
+    text-align: center;
+  }
+
+}
+
+.ImgProf{
+  width: 100%;
+  height: 200px;
+}
+
+.ProjectList{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-right: 100px;
+
+}
+
+.ProjectBox{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: fit-content;
+  border: solid 1px $Color-b;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+
+
+  div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    text{
+      margin: 10px 10px;
+    }
+  }
+}
+
+.TitleP{
+  margin-bottom: 40px;
+  font-size: 20px;
+  border-bottom: solid 2px $Color-b;
+}

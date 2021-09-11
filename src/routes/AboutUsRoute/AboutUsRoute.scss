@@ -1,0 +1,24 @@
+@import "../../assets/fonts/fonts";
+@import "../../assets/colors/colors";
+
+.AboutUsPage{
+  font-family: IRANSansWeb,sans-serif;
+  font-size: 16px;
+}
+.ImgAboutb{
+
+}
+
+.Logo{
+  width: 400px;
+
+}
+
+.AbtnOrder{
+  width: 250px;
+  border:$Color-c;
+  background-color:$Color-c;
+  border-radius: 50px;
+  align-self: center;
+  margin: 20px 0;
+}

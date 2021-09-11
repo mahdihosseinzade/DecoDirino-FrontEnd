@@ -1,0 +1,50 @@
+@import '../../../../../assets/fonts/fonts';
+@import "../../../../../assets/colors/colors";
+
+.Navbar{
+  background-color: $Color-a;
+  direction: rtl;
+}
+
+.NavLink{
+  font-family: IRANSansWeb, serif;
+  color:$NavLink-toolar!important;
+}
+
+.Navbar-Nav{
+
+}
+
+.SearchForm{
+  font-family: IRANSansWeb, serif;
+  border: solid 1px;
+  border-radius: 15px;
+  padding: 2px;
+  width: fit-content;
+  display: flex!important;
+  flex-flow: row nowrap!important;
+  margin-bottom: unset !important;
+}
+
+.InputSearch{
+  border-style: none !important;
+  margin: 2px;
+  width: 160px !important;
+  height: 1.5em !important;
+}
+.AwesomeIcon{
+  margin: 3px;
+}
+.FontAwesome{
+  font-size: 25px;
+  color: $NavLink-toolar!important;
+}
+
+.NavLogo{
+  width: 150px;
+  height: 57px;
+  margin: unset!important;
+  padding: unset!important;
+}
+
+

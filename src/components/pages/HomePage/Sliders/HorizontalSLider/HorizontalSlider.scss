@@ -1,0 +1,30 @@
+.HSlider{
+  width: 1366px!important;
+  height: 768px!important;
+
+}
+
+.slick-list{
+  order: 2 !important;
+}
+
+.NextArrowFontAwesome{
+  position: absolute !important;
+  right: 1% !important;
+  bottom: 44% !important;
+  background-color: unset;
+  border: unset;
+  outline: unset;
+}
+.PrevArrowFontAwesome{
+  position: absolute !important;
+  right: 98% !important;
+  bottom: 44% !important;
+  background-color: unset;
+  border: unset;
+  outline: unset;
+  z-index: 2;
+}
+
+
+

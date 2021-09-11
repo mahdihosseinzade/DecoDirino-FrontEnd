@@ -1,0 +1,21 @@
+@import '../../../../assets/colors/colors';
+.UserFormHeader{
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(243, 243, 243);
+  align-self: stretch;
+  font-family:  Helvetica, sans-serif;
+  padding-bottom: 5px;
+
+  h3{
+    color: $Color-b;
+    font-weight: lighter;
+  }
+
+  img{
+    width: 300px;
+    margin-right: 7px;
+  }
+}

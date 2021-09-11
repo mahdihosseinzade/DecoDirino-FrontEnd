@@ -1,0 +1,24 @@
+@import '../../../../assets/fonts/fonts';
+@import "../../../../assets/colors/colors";
+
+.ProjectLine{
+  margin: 100px 0;
+}
+
+.Border{
+  border: solid 10px $Color-c ;
+  border-radius: 140px;
+  margin: 0 66px;
+  width: 280px;
+  height: 280px;
+}
+
+.Icons{
+  width: 160px;
+  height: 160px;
+}
+
+.Hs{
+  font-family: IRANSansWeb,sans-serif;
+  color: $Color-c;
+}

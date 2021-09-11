@@ -1,0 +1,61 @@
+@import '../../../../../assets/fonts/fonts';
+@import "../../../../../assets/colors/colors";
+
+.Footer{
+  background-color:$Color-a;
+  width: 100%;
+  padding: 30px 30px;
+  border-radius: 30px 30px 0 0;
+}
+
+.FooterMenu{
+  width: 400px;
+  direction: rtl;
+  font-size: 14px;
+  font-family: IRANSansWeb,serif;
+  margin: unset!important;
+  padding: unset!important;
+}
+
+.FooterLogo{
+  width: 300px;
+  background-color:$Color-e!important;
+  font-family: B-Nazanin,serif;
+  direction: rtl;
+  border-radius: 50px;
+}
+
+.CardLogo{
+  background-color: unset!important;
+  text-align: center;
+  color: #707070;
+
+  img{
+    width: 200px;
+    height: 100px;
+  }
+}
+
+.NavLink{
+  margin: 10px!important;
+  padding: unset!important;
+  color:$NavLink-footer!important;
+}
+
+.About{
+  direction: rtl;
+  font-family: IRANSansWeb,serif;
+  width: 300px;
+  color:$NavLink-footer;
+}
+
+.Footer_icon{
+  font-size: 25px;
+  margin: 10px;
+  color:$NavLink-footer!important;
+}
+
+.phoneNumber{
+  background-color: white;
+  color:$NavLink-footer!important;
+}

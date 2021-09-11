@@ -1,0 +1,55 @@
+@import "../../assets/colors/colors";
+@import "../../assets/fonts/fonts";
+
+.ContactUsPage{
+  font-family: IRANSansWeb,sans-serif;
+  font-size: 16px;
+}
+
+.EmailBox{
+  border: solid 1px $Color-b;
+  border-radius: 30px;
+  height: 450px;
+  background-color:$Color-e;
+
+}
+
+.InfoBox{
+  height: 450px;
+}
+
+.Text{
+
+}
+
+.Map{
+  width:600px;
+  height:200px;
+  border:0;
+}
+
+.textbox{
+  direction: rtl;
+  text-align: right;
+  border: unset;
+  border-radius: 20px;
+}
+
+.btnSend{
+  border: 2px $Color-a;
+  border-radius: 20px;
+  padding: 5px 20px;
+  background-color:$Color-c;
+}
+
+.textMessage{
+  height: 200px;
+  border-radius: 20px;
+  border: unset;
+  direction: rtl;
+  padding: 15px;
+  font-size: 18px;
+
+}
+
+

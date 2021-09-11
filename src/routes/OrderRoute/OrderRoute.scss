@@ -1,0 +1,39 @@
+@import "../../assets/fonts/fonts";
+@import "../../assets/colors/colors";
+
+.OrderPage{
+  font-family: IRANSansWeb,sans-serif;
+}
+
+.imgOr{
+  width: 100%;
+  height: 400px;
+}
+
+.formG{
+  display: flex!important;
+  flex-flow: row!important;
+  align-items: center!important;
+
+}
+
+.formControl{
+  border: 1px solid $Color-c;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.btnSabt{
+  width: 300px;
+  border-radius: 20px;
+  background-color:$Color-b;
+  border: unset;
+  align-self: center!important;
+  margin-top: 20px;
+}
+
+.form{
+  margin: 50px 30px;
+
+}
